@@ -25,7 +25,7 @@ module.exports = {
         hotOnly: false,
         proxy: {
           '/api': {
-            target: 'http://218.201.232.24:8087/TRDPZS',
+            target: '',
             changeOrigin: true,
             pathRewrite: {
               '^/api': ''
